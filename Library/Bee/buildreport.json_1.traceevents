@@ -1,0 +1,588 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1661920665531028, "dur": 31235769, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920665532336, "dur": 36866, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920665569640, "dur": 67551, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920665637211, "dur": 445055, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920666082269, "dur": 30674358, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920696756645, "dur": 10150, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920757892064, "dur": 1894009, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920757892320, "dur": 7450, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920757899776, "dur": 453021, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920758352802, "dur": 504424, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920758857231, "dur": 916225, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920759773459, "dur": 12610, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920759786697, "dur": 56, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1661920758723845, "dur": 122220, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661920758724605, "dur": 32250, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661920758833594, "dur": 3317, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661920758836915, "dur": 9143, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661920758837464, "dur": 8092, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661920758849869, "dur": 1119, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661920758849217, "dur": 1791, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920759786818, "dur": 119, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1661920758893200, "dur":38051, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920758931262, "dur":165, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1661920758931485, "dur":31, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1661920758931518, "dur":559, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1661920758932125, "dur":817, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920758932942, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759667, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759672, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759684, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759686, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759694, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759695, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759702, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759704, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759710, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759712, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759722, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759723, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759729, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759730, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759737, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759738, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759745, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759753, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759759770, "dur":1887, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1661920758932527, "dur":478, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920758933012, "dur":4440, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920758937464, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661920758937471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920758939766, "dur":214, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661920758939992, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661920758940008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920758940303, "dur":6631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661920758946937, "dur":6153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1661920758953097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920758953102, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1661920758953770, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1661920758953846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920758953859, "dur":62445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1661920759016345, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1661920759016447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759016451, "dur":69806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1661920759086288, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1661920759086602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759086692, "dur":9168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1661920759095900, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759095990, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759096105, "dur":450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759096563, "dur":12013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759108594, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759108699, "dur":383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759109091, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759109147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759109150, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759109734, "dur":19415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759129154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759129161, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759129555, "dur":19735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759149294, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759149324, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759150351, "dur":19909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759170265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759170271, "dur":412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759170690, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759170739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759170742, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759171345, "dur":18525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759189875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759189881, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759190528, "dur":13931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759204464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759204470, "dur":442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759204921, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759204988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759204991, "dur":326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759205323, "dur":14512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759219839, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759219845, "dur":113963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759333823, "dur":15156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759348982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759348987, "dur":632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759349632, "dur":11059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759360696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759360701, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759361771, "dur":29212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759390987, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759390993, "dur":405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759391406, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759391461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759391464, "dur":514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759391986, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759392106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759392111, "dur":320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759392439, "dur":761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759393202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759393205, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759394055, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759394225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759394228, "dur":439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759394673, "dur":14278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759408958, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759408965, "dur":460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759409434, "dur":30509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759439948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759439954, "dur":477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759440441, "dur":15337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759455784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759455792, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759456307, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759456462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759456467, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759457215, "dur":23607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759480830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759480838, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759481505, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759481582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759481587, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759482197, "dur":17991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759500192, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759500198, "dur":418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759500625, "dur":22641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759523273, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759523282, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759524440, "dur":17905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759542351, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759542360, "dur":40137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759582508, "dur":114096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759696611, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759696620, "dur":16526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759713156, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759713243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759713246, "dur":3455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661920759716709, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1661920759716721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759716723, "dur":37869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1661920759754606, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1661920759754802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661920759754806, "dur":2522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1661920759757336, "dur":2219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920758933601, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920758933602, "dur":3949, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920758937552, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1661920758938268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920758940162, "dur":642426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1661920759582617, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759582693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920759582697, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759583652, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759584048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920759584052, "dur":4603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759588667, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759588736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920759588740, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759591709, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759591806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920759591810, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759592723, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759592775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920759592779, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759593504, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759593668, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920759593672, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759594316, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759594565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920759594569, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759596237, "dur":84195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759680438, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920759680449, "dur":30393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759710850, "dur":3262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759714115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920759714120, "dur":12508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661920759726641, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1661920759726654, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661920759726659, "dur":32477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1661920759759147, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1661920759759150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920758932859, "dur":266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920758933125, "dur":4427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920758937553, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1661920758937735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920758940049, "dur":76557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1661920759016634, "dur":489441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759506080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759506112, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759507984, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759508067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759508073, "dur":418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759508503, "dur":16027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759524534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759524541, "dur":398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759524946, "dur":18011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759542961, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759542967, "dur":40357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759583337, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759583935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759583940, "dur":6837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759590785, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759590830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759590833, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759592613, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759592672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759592676, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759593542, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759594122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759594126, "dur":40365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759634503, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759634674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759634680, "dur":2854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759637545, "dur":2085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759639634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759639641, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759642130, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759642207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759642212, "dur":355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759642575, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759642754, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759642758, "dur":449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759643216, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759643687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759643691, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759644804, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759645432, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759645436, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759646272, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759646347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759646351, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759646696, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759646820, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759646823, "dur":334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759647164, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759647287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759647290, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759649213, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759649278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759649283, "dur":304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759649595, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759649716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759649720, "dur":318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759650045, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759650118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759650121, "dur":295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759650424, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759650767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759650770, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759651496, "dur":4272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759655774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759655782, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759658218, "dur":1462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759659684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759659691, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759661566, "dur":799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759662368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759662372, "dur":48074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759710457, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759710948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759710952, "dur":3940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759714903, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759715035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759715039, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661920759716293, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1661920759716307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759716310, "dur":19117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1661920759735441, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1661920759735456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759735462, "dur":20219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1661920759755701, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1661920759755819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661920759755826, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1661920759757835, "dur":1621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661920758932693, "dur":367, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661920758933060, "dur":4463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661920758937524, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1661920758938115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661920758940065, "dur":7014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1661920758947130, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1661920758947366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661920758947371, "dur":635194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1661920759582603, "dur":107978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661920759690589, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661920759690599, "dur":21509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661920759712125, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661920759712363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661920759712370, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661920759715180, "dur":14721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661920759729906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661920759735912, "dur":19792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661920759755726, "dur":3917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920758933122, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920758933123, "dur":4381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920758937504, "dur":7818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1661920758945328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920758945374, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1661920758946962, "dur":5703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1661920758952669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920758952674, "dur":428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1661920758953128, "dur":5401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1661920758958533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920758958539, "dur":57533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1661920759016104, "dur":6291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1661920759022398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920759022418, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1661920759023189, "dur":534221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1661920759557416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920759557423, "dur":14636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1661920759572109, "dur":15321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661920759587434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920759587439, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661920759591187, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661920759591236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920759591240, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661920759592759, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661920759593015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920759593018, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661920759594338, "dur":100598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661920759694946, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920759694960, "dur":15750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661920759710727, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661920759710842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920759710849, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661920759713170, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661920759713374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920759713378, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661920759715536, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1661920759715588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920759715687, "dur":272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1661920759715967, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1661920759715978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920759715989, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1661920759716774, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1661920759716785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920759716788, "dur":37880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1661920759754677, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1661920759754691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661920759754701, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1661920759756296, "dur":3271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920758933351, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920758933352, "dur":4106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920758937464, "dur":77772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1661920759015245, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759015650, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1661920759016498, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1661920759016738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759016742, "dur":4631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1661920759021422, "dur":194733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759216161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759216166, "dur":132654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759348857, "dur":11834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759360696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759360702, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759361739, "dur":11907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759373650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759373656, "dur":418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759374082, "dur":40818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759414918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759414923, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759415531, "dur":19557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759435093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759435101, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759435614, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759435675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759435678, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759436583, "dur":13279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759449866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759449872, "dur":399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759450279, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759450372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759450376, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759450986, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759451124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759451128, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759451532, "dur":15306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759466842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759466848, "dur":427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759467282, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759467335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759467338, "dur":249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759467609, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759467719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759467722, "dur":287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759468018, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759468095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759468099, "dur":549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759468657, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759468830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759468834, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759469358, "dur":13940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759483302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759483308, "dur":403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759483720, "dur":43331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759527057, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759527068, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759528129, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759528232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759528237, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759528640, "dur":26983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759555631, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759555641, "dur":28322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759583973, "dur":4400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759588376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759588398, "dur":5447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759593853, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759593903, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759593906, "dur":66787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759660705, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759660783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759660787, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759661638, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759661779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759661788, "dur":582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759662378, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759662604, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759662608, "dur":54970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661920759717605, "dur":13878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1661920759731488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759731500, "dur":4707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1661920759736227, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1661920759736239, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661920759736242, "dur":22335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1661920759758587, "dur":820, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920758933860, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920758933861, "dur":3641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920758937503, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1661920758938164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920758940322, "dur":75854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1661920759016213, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1661920759016292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920759016298, "dur":566257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1661920759582597, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759582693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920759582697, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759583782, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759583908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920759583912, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759586485, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759586551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920759586556, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759587372, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759587425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920759587429, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759589748, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759589837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920759589841, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759590612, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759590668, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920759590672, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759591043, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759591090, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920759591093, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759592846, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759592896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920759592914, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759593773, "dur":955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759594730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920759594734, "dur":31682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759626429, "dur":78283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759704720, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920759704759, "dur":10228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661920759720837, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1661920759720904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661920759720910, "dur":37017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1661920759757935, "dur":1230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920758934254, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920758934255, "dur":3270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920758937525, "dur":8776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1661920758946325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920758946330, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1661920758946954, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1661920758947227, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920758947251, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1661920758948249, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1661920758948347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920758948664, "dur":68142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1661920759016844, "dur":34890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759051739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759052151, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759055371, "dur":329917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam.exe" }}
+,{ "pid":12345, "tid":8, "ts":1661920759385293, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759385299, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam.exe" }}
+,{ "pid":12345, "tid":8, "ts":1661920759386294, "dur":12899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759399198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759399205, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759399892, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759399968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759399972, "dur":329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759400309, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759400388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759400394, "dur":423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759400837, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759401039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759401044, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759401611, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759401711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759401740, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759402348, "dur":12265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759414618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759414624, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759415414, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759415489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759415493, "dur":572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759416073, "dur":11459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759427537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759427543, "dur":427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759427977, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759428025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759428028, "dur":277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759428311, "dur":17136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759445452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759445458, "dur":418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759445884, "dur":14064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759459953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759459960, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759460832, "dur":13194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759474030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759474038, "dur":419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759474465, "dur":13900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759488372, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759488380, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759488926, "dur":21255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759510184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759510189, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759510850, "dur":653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759511505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759511509, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759512525, "dur":18371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759530901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759530926, "dur":51492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759582436, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759582631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759582638, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759583695, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759583811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759583816, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759586136, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759586208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759586215, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759589154, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759589213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759589217, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759590230, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759590279, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759590283, "dur":433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759590724, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759590779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759590797, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759592520, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759592989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759592993, "dur":3172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759596176, "dur":87554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759683736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759683744, "dur":31039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759714793, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759714954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759714959, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661920759717074, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build file/UMD-Summer-Game-Jam_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1661920759717126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661920759717137, "dur":38869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build file/UMD-Summer-Game-Jam_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1661920759756022, "dur":3588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661920759762961, "dur":1889, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1661920759786985, "dur": 633, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661920759786663, "dur": 975, "ph": "X", "name": "Write chrome-trace events", "args": {} },
